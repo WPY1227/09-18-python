@@ -1,0 +1,17 @@
+[project]
+name = "09-18-python"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "WPY1227", email = "D1546954@o365.fcu.edu.tw" }
+]
+requires-python = ">=3.12"
+dependencies = []
+
+[project.scripts]
+09-18-python = "09_18_python:main"
+
+[build-system]
+requires = ["uv_build>=0.12.13,<0.13.0"]
+build-backend = "uv_build"
